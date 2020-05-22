@@ -23,7 +23,7 @@ Web accessibility is about designing and building for every kind of person. It i
 
 We want everyone to be able to navigate, use, and consume the contents of our website. So we need to make sure that we're developing with everybody in mind. Not just the common case.
 
-![tweet](assets/tweet.png)
+![SUX Tweet](assets/tweet.png)
 
 ## Important Terminologies
 
@@ -43,7 +43,7 @@ They are the set of hardware or software that help users to consume content. Som
 
 ### Use Clear Page Titles
 
-In the `<head>` tag of your HTML, make sure that you add a title. Because this is the first thing that will be read by a screen reader.
+In the `<head>` tag of your HTML, make sure that you add a title because this is the first thing that will be read by a screen reader.
 
 Also, setting the title allows users to manage their tabs easily since they can understand what each tab is for and what website they're on.
 
@@ -60,7 +60,7 @@ Also, setting the title allows users to manage their tabs easily since they can 
 
 ### Have Sufficient Contrast Between Foreground & Background
 
-Text over images looks nice, however, if we're not careful we might have low contrast between the foreground and the background image. This will make the text less visible and much harder to read.
+Text over images looks nice; however, if we're not careful, we might have a low contrast between the foreground and the background image. This will make the text less visible and much harder to read.
 
 A cool browser extension you can use to test whether or not you have sufficient contrast is [color contrast analyzer](https://chrome.google.com/webstore/detail/color-contrast-analyzer/dagdlcijhfbmgkjokkjicnnfimlebcll?hl=en)
 
@@ -76,13 +76,13 @@ On the other hand, if you're using solid colors as your background, you can test
 
 ### Add Meaningful Content To Links
 
-To further enhance the inclusiveness of your website you should add meaningful content to your links. Some users set the screen readers to only read Headings and links when they visit a page.
+To further enhance the inclusiveness of your website, you should add meaningful content to your links. Some users set the screen readers only to read headings and links when they visit a page.
 
-Using "click here" is not considered descriptive, and is ineffective for a screen reader user. So now they will have to adjust their screen reader settings to read the whole content just to understand the context.
+Using "click here" is not considered descriptive, and is ineffective for a screen reader user. So now, they will have to adjust their screen reader settings to read the entire content to understand the context.
 
 Non-screen reader users share a similar experience, because "click here" links are not easily scannable.
 
-Here are two examples of meaningful links:
+Here are two examples of important links:
 
 "For a complete list of all available HTML tags, visit our **HTML Tag Reference**" (source: [w3schools](https://23schools.com/) )
 
@@ -95,10 +95,8 @@ Having meaningful names for links is also useful for SEO (Search Engine Optimiza
 Associating form elements with their labels increases the clickable area. This is crucial for mobile users since they use smaller screens.
 
 ```HTML
-
 <label for="name">Name:</label>
 <input type="text" id="name"/>
-
 ```
 
 Here's an example of an accessible checkbox. Much easier to use on mobile because users can click the label to check the box.
@@ -109,7 +107,7 @@ To test that everything works correctly, clicking on the label will bring focus 
 
 ### Make Your Website Keyboard Accessible & Add Visual Focus
 
-Some users only use a keyboard to navigate a website by using the `Tab` key. These users might have dexterity issues or they might be using a screen reader.
+Some users only use a keyboard to navigate a website by using the `Tab` key. These users might have dexterity issues, or they might be using a screen reader.
 
 You need to make sure that every element a user can interact with can receive visual focus, an indicator that this element is clickable.
 
@@ -125,14 +123,12 @@ Here's an example of an image with good alt text:
 ![Image with good alt text](assets/pancake.png)
 
 ```HTML
-
 <img src="pancakes.png" alt="Stack of blueberry pancakes with powdered sugar">
-
 ```
 
 The exception to this is when you have a purely decorative image, like a line separator or an image that you're using as a bullet inside a list. Then you can use an empty `alt` attribute.
 
-Some cool tools you can use to automatically check the accessibility of your site are:
+Some cool tools you can use to check the accessibility of your site automatically:
 
 - [Siteimprove Accessibility Checker](https://chrome.google.com/webstore/detail/siteimprove-accessibility/efcfolpjihicnikpmhnmphjhhpiclljc)
 - [WAVE - Web Accessibility Evaluation tool](https://wave.webaim.org/)
@@ -140,9 +136,9 @@ Some cool tools you can use to automatically check the accessibility of your sit
 
 While these tools are awesome, the best way to test if your website is accessible is to use it the same way a user will.
 
-Use the `Tab` key to navigate the entire website, make sure that everything is readable, and that everything works.
+Use the `Tab` key to navigate the entire website; make sure that everything is readable, and that everything works.
 
-For screen readers you can use:
+For screen readers, you can use:
 
 - [NVDA ( Windows)](https://www.nvaccess.org/about-nvda/)
 - [JAWS (Windows)](https://www.freedomscientific.com/products/software/jaws/)
@@ -151,5 +147,5 @@ For screen readers you can use:
 
 And to check the color contrast you can use:
 
-- [Dalton](https://chrome.google.com/webstore/detail/colorblind-dalton-for-goo/afcafnelafcgjinkaeohkalmfececool?hl=en) simulates 4 types of color blindness
+- [Dalton](https://chrome.google.com/webstore/detail/colorblind-dalton-for-goo/afcafnelafcgjinkaeohkalmfececool?hl=en) simulates four types of color blindness.
 - [Color contrast Analyzer](https://chrome.google.com/webstore/detail/color-contrast-analyzer/dagdlcijhfbmgkjokkjicnnfimlebcll?hl=en), checks that your website has sufficient contrast.
