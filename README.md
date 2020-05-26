@@ -26,7 +26,7 @@ Web accessibility is about designing and building for every kind of person. It i
 
 We want everyone to be able to navigate, use, and consume the contents of our website. So we need to make sure that we're developing with everybody in mind. Not just the common case.
 
-![SUX Tweet](assets/tweet.png)
+![SUX Tweet](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1590510141/transcript-images/inclusive-user-experience-egghead-talk-tweet.png)
 
 ## Important Terminologies
 
@@ -57,7 +57,7 @@ Also, setting the title allows users to manage their tabs easily since they can 
 
 ```
 
-![HTML Title Tag](./assets/htmlTitle.png)
+![HTML Title Tag](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1590510141/transcript-images/inclusive-user-experience-egghead-talk-htmlTitle.png)
 
 > If you're using React.js, [react-helmet](https://github.com/nfl/react-helmet) helps in managing the titles of your React App
 
@@ -73,7 +73,7 @@ Adding an overlay to the background image makes the foreground text a lot easier
 
 Here's an example:
 
-![Overlay Image Example](assets/overlay-tip.png)
+![Overlay Image Example](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1590510141/transcript-images/inclusive-user-experience-egghead-talk-overlay-tip.png)
 
 On the other hand, if you're using solid colors as your background, you can test the contrast between the text color and the background color using tools like [Colorable](https://colorable.jxnblk.com/) or [WebAIM Color Contrast Checker](https://webaim.org/resources/contrastchecker/)
 
@@ -103,7 +103,7 @@ Associating form elements with their labels increases the clickable area. This i
 ```
 
 Here's an example of an accessible checkbox. Much easier to use on mobile because users can click the label to check the box.
-![Accessible Checkbox](assets/checkbox.gif)
+![Accessible Checkbox](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1590510141/transcript-images/inclusive-user-experience-egghead-talk-checkbox.gif)
 
 All you need to do to achieve this is to use the `for` attribute on your label and match it to the id on your input.
 To test that everything works correctly, clicking on the label will bring focus (a border will surround the element) to the input.
@@ -123,7 +123,7 @@ When setting the "alt" attribute, make sure you give it a value that is relevant
 
 Here's an example of an image with good alt text:
 
-![Image with good alt text](assets/pancake.png)
+![Image with good alt text](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1590510141/transcript-images/inclusive-user-experience-egghead-talk-pancake.png)
 
 ```HTML
 <img src="pancakes.png" alt="Stack of blueberry pancakes with powdered sugar">
